@@ -1,0 +1,56 @@
+.dashboardItemContainer {
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+  border: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dashboardItemDeleteButton {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 180px;
+}
+
+.dashboardItemDeleteButton:hover {
+  cursor: pointer;
+}
+
+.schModalBox {
+  width: 1250px;
+  height: 650px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.schModalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.schHeaderName {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.schHeaderLine {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  margin-bottom: 5px;
+}

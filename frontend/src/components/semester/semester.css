@@ -1,0 +1,34 @@
+.editSemester{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 150px;
+    gap: 5px;
+    /*
+    border: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    */
+    position: relative;
+}
+
+.editSemesterName{
+    display:flex;
+    align-items: center;
+    height: 100px;
+}
+
+.semesterDeleteButton{
+    position: absolute;
+    top: 0px;
+    left: 99%;
+    display:none
+}
+
+.semesterDeleteButton:hover{
+    cursor:pointer;
+}
+
+.editSemester:hover .semesterDeleteButton{
+    display:block;
+}

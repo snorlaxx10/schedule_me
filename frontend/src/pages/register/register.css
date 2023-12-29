@@ -1,0 +1,58 @@
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerBox {
+  height: 350px;
+  width: 500px;
+  padding: 20px;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.registerInput {
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.registerButton {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  transform: scale(0.98);
+}
+
+.registerLoginButton {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.registerLoginButton:hover {
+  transform: scale(0.98);
+}

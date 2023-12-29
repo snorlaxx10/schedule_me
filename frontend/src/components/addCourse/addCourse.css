@@ -1,0 +1,19 @@
+.course-plus-button{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    width:30px;
+    height:30px;
+    padding: 0px 0px;
+    margin: 10px;
+    border: solid;
+    border-radius: 50px;
+    border-width: 3px;
+    cursor: pointer;
+
+}
+
+.course-plus-button:hover{
+    transform : scale(1.1);
+}

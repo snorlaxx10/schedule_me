@@ -1,0 +1,12 @@
+.commentPostContainer{
+    width: 500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.upperContainer{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

@@ -1,0 +1,30 @@
+.editCourse{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    border: solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    position: relative;   
+}
+
+.courseUnits{
+    font-size: 10px;
+}
+
+.courseDeleteButton{
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    display:none;
+}
+
+.courseDeleteButton:hover{
+    cursor:pointer;
+}
+
+.editCourse:hover .courseDeleteButton{
+    display:block;
+}
